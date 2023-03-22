@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.navbar{
+    background-color: #111;
+    padding: 2rem 8rem;
+    z-index: 1000;
+}
+
+.navbar .navbar-brand{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    font-size: 1.3rem;
+    padding: 0 .8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00BF85;
+}
+
+.navbar .btn{
+    padding: .4rem 1.4rem;
+    border-radius: 30px;
+    background-color: #00BF85;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.mid{
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+}
+
+.mid .hero{
+    position: relative;
+}
+
+.mid .hero h2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+}
+
+.mid .hero p{
+    font-size: 1.4rem;
+    color: white;
+    width: 55%;
+    letter-spacing: .2px;
+    padding-bottom: 1.1rem;
+}
+
+.mid .hero a{
+    padding: .7rem 1.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #00BF85;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.mid .hero a:hover{
+    background-color: #fff;
+}
+
+
+.about{
+    background-color: #000;
+}
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.about .text h6{
+    color: #00BF85;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+
+.about .text h2{
+    font-size: 2.9rem;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.about .text p{
+    font-size: 1.3rem;
+    color: #fff;
+    letter-spacing: .5px;
+}
+
+.about .text a{
+    padding: .7rem 1.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #00BF85;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.about .text a:hover{
+    background-color: #fff;
+}
+
+
+.description{
+}
+
+.description .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.description .text h6{
+    color: #00BF85;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+
+.description .text h2{
+    font-size: 2.9rem;
+    letter-spacing: .5px;
+}
+
+.description .text p{
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+}
+
+.description .text a{
+    padding: .7rem 1.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #111;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.description .text a:hover{
+    background-color: #00BF85;
+}
+
+.sign{
+}
+
+.sign .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sign .text h6{
+    color: #00BF85;
+    font-weight: 800;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+}
+
+
+.sign .text h2{
+    font-size: 2.9rem;
+    letter-spacing: .5px;
+}
+
+.sign .text p{
+    font-size: 1.3rem;
+    letter-spacing: .5px;
+}
+
+.sign .text a{
+    padding: .7rem 1.7rem;
+    font-size: 1.3rem;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #111;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.sign .text a:hover{
+    background-color: #00BF85;
+}
+
+.service{
+    background-color: #000;
+}
+
+.service .heading h2{
+    font-size: 2.9rem;
+}
+
+.service .one{
+    background-color: #fff;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1.5rem;
+}
+
+.service .one h5{
+    font-size: 1.7rem;
+}
+
+.service .one p{
+    font-size: 1.3rem;
+}
+
+footer .btn{
+    border-radius: 50px;
+}
+
+footer i{
+    font-size: 1.5rem;
+    padding: .5rem;
+}
+
+
+footer .btn:hover{
+    background-color: #00BF85;
+} 
+
+@media screen and (max-width:988px){
+    .navbar{
+        padding: 1rem 0;
+    }
+
+    #navbarSupportedContent > ul{
+        padding-left: .8rem;
+    }
+
+    #navbarSupportedContent > ul > li:nth-child(n) > a{
+        padding: .8rem 0;
+    }
+}
+
+@media screen and (max-width:650px){
+
+    .hero h2{
+        margin-top: 75px;
+    }
+    .hero p{
+        width: 100%;
+        text-align: justify;
+    }
+}
